@@ -1,0 +1,14 @@
+Flask
+Flask-Cors
+Flask-JWT-Extended
+pymongo
+bcrypt
+email-validator
+PyMuPDF
+feedparser
+requests
+faiss-cpu
+numpy
+python-docx
+python-pptx
+reportlab

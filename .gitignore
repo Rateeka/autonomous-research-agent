@@ -1,0 +1,102 @@
+# ==========================================
+# FRONTEND - REACT / VITE
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# BACKEND - PYTHON / FLASK
+# ==========================================
+backend/venv/
+backend/.venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/.Python
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# PYTHON CACHE AND TESTING
+# ==========================================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# GENERATED REPORTS AND TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ==========================================
+# LOCAL AI / RAG / FAISS DATA
+# ==========================================
+# Ignore generated vector indexes and embeddings
+# Keep these ignored only if they can be regenerated
+backend/faiss_index/
+backend/vector_store/
+backend/embeddings_cache/
+
+# Ignore downloaded research PDFs if generated locally
+backend/downloads/
+backend/research_pdfs/
+
+# ==========================================
+# DATABASE BACKUPS
+# ==========================================
+*.dump
+*.bson
+*.archive
+
+# ==========================================
+# IDE AND OPERATING SYSTEM FILES
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# SECURITY KEYS AND CERTIFICATES
+# ==========================================
+*.pem
+*.key
+
+# ==========================================
+# OPTIONAL LOCAL CONFIGURATION
+# ==========================================
+backend/config.local.py
